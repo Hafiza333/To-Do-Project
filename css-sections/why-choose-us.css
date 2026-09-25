@@ -1,0 +1,55 @@
+.why-choose-us {
+    background-color: #0d0d0d;
+    padding: 90px 80px;
+    text-align: center;
+}
+
+.why-label {
+    color: #FDB813;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.why-heading {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.why-subtext {
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.differentiators-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+}
+
+.why-card {
+    background-color: #1a1a1a;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 8px;
+    padding: 26px;
+}
+
+.why-check {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.why-text {
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    line-height: 1.6;
+}

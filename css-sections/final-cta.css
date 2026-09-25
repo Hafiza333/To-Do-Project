@@ -1,0 +1,38 @@
+.final-cta {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../pictures/c6689cb24cf358a1591d2ea6f111a95e0b355a74.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 80px;
+}
+
+.cta-heading {
+    color: white;
+    font-size: 42px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cta-subtext {
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.cta-note {
+    color: #FDB813;
+    font-size: 12px;
+    font-weight: bold;
+}

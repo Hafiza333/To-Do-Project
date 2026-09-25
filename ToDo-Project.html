@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ToDo Project</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css-sections/navbar.css">
+        <link rel="stylesheet" href="css-sections/hero-section.css">
+        <link rel="stylesheet" href="css-sections/problem-section.css">
+        <link rel="stylesheet" href="css-sections/solution-section.css">
+        <link rel="stylesheet" href="css-sections/proof-section.css">
+        <link rel="stylesheet" href="css-sections/how-it-works.css">
+        <link rel="stylesheet" href="css-sections/why-choose-us.css">
+        <link rel="stylesheet" href="css-sections/services-section.css">
+        <link rel="stylesheet" href="css-sections/portfolio-section.css">
+        <link rel="stylesheet" href="css-sections/faq-section.css">
+        <link rel="stylesheet" href="css-sections/final-cta.css">
+        <link rel="stylesheet" href="css-sections/footer.css">
+    </head>
+    <body>
+        <div data-section="navbar"></div>
+        <div data-section="hero-section"></div>
+        <div data-section="problem-section"></div>
+        <div data-section="solution-section"></div>
+        <div data-section="proof-section"></div>
+        <div data-section="how-it-works"></div>
+        <div data-section="why-choose-us"></div>
+        <div data-section="services-section"></div>
+        <div data-section="portfolio-section"></div>
+        <div data-section="faq-section"></div>
+        <div data-section="final-cta"></div>
+        <div data-section="footer"></div>
+
+        <script>
+            document.querySelectorAll('[data-section]').forEach(async function (box) {
+                let response = await fetch('html-sections/' + box.dataset.section + '.html');
+                box.outerHTML = await response.text();
+            });
+        </script>
+    </body>
+</html>

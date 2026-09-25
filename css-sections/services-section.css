@@ -1,0 +1,63 @@
+.services-section {
+    background-color: #141518;
+    padding: 90px 80px;
+    text-align: center;
+}
+
+.options-label {
+    color: #FDB813;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.options-heading {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+
+.option-card {
+    background-color: #1a1a1a;
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.option-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.option-body {
+    padding: 24px;
+}
+
+.option-title {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.option-text {
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.option-link {
+    color: #FDB813;
+    font-size: 13px;
+    font-weight: bold;
+}

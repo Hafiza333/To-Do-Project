@@ -1,0 +1,66 @@
+.how-it-works {
+    background-color: #141518;
+    padding: 90px 80px;
+    text-align: center;
+}
+
+.steps-label {
+    color: #FDB813;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.steps-heading {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.steps-subtext {
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.steps-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.step {
+    flex: 1;
+}
+
+.step-label {
+    color: #FDB813;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.step-title {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-text {
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.step-arrow {
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    margin-top: 30px;
+}

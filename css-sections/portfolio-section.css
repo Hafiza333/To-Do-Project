@@ -1,0 +1,95 @@
+.portfolio-section {
+    background-color: #0d0d0d;
+    padding: 90px 80px;
+    text-align: center;
+}
+
+.cases-label {
+    color: #FDB813;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.cases-heading {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.cases-subtext {
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.case-row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.case-image {
+    flex: 1;
+}
+
+.case-img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.case-info {
+    flex: 1;
+}
+
+.case-tag {
+    color: #FDB813;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.case-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.case-desc {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.case-stats {
+    display: flex;
+    gap: 40px;
+}
+
+.case-stat-number {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.case-stat-number.red {
+    color: #E53935;
+}
+
+.case-stat-number.blue {
+    color: #29B6F6;
+}
+
+.case-stat-label {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+}
